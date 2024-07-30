@@ -220,7 +220,7 @@
   padding: 10px 10px; 
   border-radius: 5px; 
   cursor: pointer; 
-  font-size: 14px; 
+  font-size: 12px; 
   margin-left: 10px; 
   width: 180px;
   height: 50px;
@@ -412,7 +412,7 @@
   .button-container{
     width: 80%;
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 10px;
   }
   .image-container{
     width: 50%;
