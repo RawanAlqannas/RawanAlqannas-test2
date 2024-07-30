@@ -60,7 +60,7 @@
         <img class="right-image" src="../assets/gwal.png" />
       </div>
     </main>
-    <footer class="footer">
+    <footer class="footer" >
       <div class="footer-top">
         <div class="footer-left">
           <img class="footer-logo" src="../assets/logoo.png" />
@@ -111,38 +111,38 @@
 <style scoped>
 .container {
   background-color: white;
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
   display: flex;
   flex-direction: column;
 }
 
 .header {
-  background-color: #fffefe; /* Light gray background for header */
-  padding: 10px 20px; /* Padding around the header */
+  background-color: #fffefe; 
+  padding: 10px 20px; 
   display: flex;
-  align-items: flex-start; /* Align items to the top */
-  justify-content: space-between; /* Space out items horizontally */
-  border-bottom: 1px solid #fffefe; /* Bottom border for the header */
+  align-items: flex-start; 
+  justify-content: space-between; 
+  border-bottom: 1px solid #fffefe; 
 }
 
 .logoo {
-  align-self: flex-start; /* Align logo to the top left */
-  width: 6%; /* Set a fixed width for the logo */
+  align-self: flex-start; 
+  width: 6%; 
   height: auto;
 }
 
 .header-button {
-  background-color: #EBC82A; /* Button background color */
-  color: rgb(6, 6, 6); /* Button text color */
-  border: none; /* Remove default border */
-  padding: 10px 20px; /* Button padding */
-  border-radius: 5px; /* Slightly rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  font-size: 16px; /* Font size */
+  background-color: #EBC82A; 
+  color: rgb(6, 6, 6); 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 16px; 
 }
 
 .header-button:hover {
-  background-color: #e3c86f; /* Darker color on hover */
+  background-color: #e3c86f; 
 }
 
 .xxx {
@@ -151,137 +151,142 @@
 }
 
 .main-content {
-  flex: 1; /* Take up remaining space */
+  flex: 1; 
   display: flex;
-  padding: 20px; /* Padding around the content */
+  padding: 20px;
 }
 
 .content-left {
-  flex: 1; /* Take up available space */
+  flex: 1;
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  justify-content: flex-start; /* Align content to the top */
-  align-items: flex-start; /* Align content to the left */
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
 }
 
 .main-text {
-  font-size: 36px; /* Font size for the main text */
-  color: #080808; /* Text color */
-  margin-bottom: 20px; /* Space between text elements */
+  font-size: 36px; 
+  color: #080808; 
+  margin-bottom: 20px; 
 }
 
 .item-container {
-  margin-bottom: 20px; /* Space between items */
+  margin-bottom: 20px; 
 }
 
 .item-content {
   display: flex;
-  align-items: center; /* Center align items vertically */
+  align-items: center; 
 }
 
 .item-icon {
-  margin-right: 10px; /* Space between image and text */
-  width: 40px; /* Adjust width if needed */
-  height: 40px; /* Adjust height if needed */
+  margin-right: 10px; 
+  width: 40px; 
+  height: 40px; 
 }
 
 .item-text {
   display: flex;
-  flex-direction: column; /* Stack title and description vertically */
+  flex-direction: column; 
 }
 
 .item-title {
-  font-size: 36px; /* Font size for item titles */
-  color: #FF9C00; /* Orange color for item titles */
-  margin-bottom: 10px; /* Space between title and description */
-  display: block; /* Ensures title is on its own line */
+  font-size: 36px; 
+  color: #FF9C00; 
+  margin-bottom: 10px; 
+  display: block; 
   text-align: left;
 }
 
 .item-description {
-  font-size: 14px; /* Smaller font size for item descriptions */
-  color: #000; /* Black color for description text */
-  max-width: 500px; /* Set a max-width for better layout */
-  line-height: 1.5; /* Line height for readability */
+  font-size: 14px; 
+  color: #000; 
+  max-width: 500px; 
+  line-height: 1.5; 
   text-align: left;
 }
 
 .button-container {
   display: flex;
-  flex-direction: row; /* Stack buttons horizontally */
-  justify-content: flex-end; /* Align buttons to the right */
-  margin-top: 20px; /* Space above the button container */
+  flex-direction: row; 
+  justify-content: flex-end; 
+  margin-top: 20px; 
 }
 
 .download-button {
-  background-color: #FBF4D4; /* Button background color */
-  color: rgb(6, 6, 6); /* Button text color */
-  border: none; /* Remove default border */
-  padding: 10px 20px; /* Button padding */
-  border-radius: 5px; /* Slightly rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  font-size: 16px; /* Font size */
-  margin-left: 10px; /* Space between buttons */
-  width: 40%;
-  height: 70%;
+  background-color: #FBF4D4; 
+  color: rgb(6, 6, 6); 
+  border: none; 
+  padding: 10px 10px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 14px; 
+  margin-left: 10px; 
+  width: 180px;
+  height: 50px;
+  margin: 5px;
 }
 
 .download-button:hover {
-  background-color: #515252; /* Darker color on hover */
+  background-color: #515252; 
 }
 
 .image-container {
   display: flex;
-  align-items: flex-start; /* Align items to the top */
-  justify-content: flex-end; /* Align items to the right */
-  padding-top: 10px; /* Add space above the image */
-  margin-left: 20px; /* Add space to the left of the image */
+  align-items: flex-start; 
+  justify-content: flex-end; 
+  padding-top: 10px;
+  margin-left: 20px; 
+  width: 50%;
 }
 
 .right-image {
-  max-width: 500px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 500px; 
+  height: auto; 
 }
 
 .footer {
-  background-color: #FBF4D4; /* Footer background color */
-  padding: 20px; /* Padding around the footer content */
-  font-size: 14px; /* Font size for footer text */
+  background-color: #FBF4D4; 
+  padding: 20px; 
+  font-size: 12px; 
 }
 
 .footer-top {
   display: flex;
-  justify-content: space-between; /* Space out footer sections horizontally */
-  align-items: flex-start; /* Align items to the top */
+  justify-content: space-between; 
+  align-items: flex-start; 
 }
 
 .footer-left {
   flex: 1;
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 
 .footer-logo {
-  max-width: 100px; /* Adjust logo size */
-  height: auto; /* Maintain aspect ratio */
-  margin-bottom: 10px; /* Space below the logo */
+  max-width: 80px; 
+  height: auto; 
+  margin-bottom: 10px; 
 }
 
 .footer-text {
-  font-size: 14px; /* Font size for footer text */
-  margin-bottom: 10px; /* Space below text */
+  font-size: 14px; 
+  margin-bottom: 10px; 
+  text-align: left;
+  width: 66%;
 }
 
 .footer-center {
   flex: 1;
   display: flex;
-  justify-content: center; /* Center align the links */
+  justify-content: center; 
 }
 
 .footer-links-container {
   display: flex;
-  justify-content: space-between; /* Space out the link sections horizontally */
-  width: 100%; /* Full width */
+  justify-content: space-between; 
+  width: 100%; 
 }
 
 .quick-links, .website-maps {
@@ -290,70 +295,69 @@
 }
 
 .footer-heading {
-  font-weight: bold; /* Bold heading */
-  margin-bottom: 10px; /* Space below heading */
+  font-weight: bold; 
+  margin-bottom: 10px; 
 }
 
 .footer-links {
-  list-style-type: disc; /* Remove default list styling */
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
+  list-style-type: disc; 
+  padding: 0; 
+  margin: 0; 
   padding-left: 20px;
 }
 
 .footer-links li {
-  margin-bottom: 5px; /* Space between links */
-  color: #111312; /* Link color */
+  margin-bottom: 5px; 
+  color: #111312;
 }
 .footer-links li::marker {
-  color: #4DA747; /* Bullet point color */
+  color: #4DA747; 
 }
 
 .footer-right {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-end; /* Align items to the right */
+  align-items: flex-end; 
 }
 
 .footer-contact-item {
   display: flex;
   flex-direction: column;
-  align-items: flex-end; /* Align items to the right */
+  align-items: flex-end; 
 }
 
 .contact-item {
   display: flex;
-  align-items: center; /* Center align icon and text */
-  margin-bottom: 5px; /* Space between contact items */
+  align-items: center; 
+  margin-bottom: 5px; 
 }
 
 .contact-icon {
-  margin-right: 10px; /* Space between icon and text */
-  width: 20px; /* Adjust width if needed */
-  height: 20px; /* Adjust height if needed */
+  margin-right: 10px; 
+  width: 20px; 
+  height: 20px; 
 }
 .footer-bottom {
   display: flex;
-  justify-content: space-between; /* Space out footer bottom elements */
-  align-items: center; /* Center align items vertically */
-  margin-top: 20px; /* Space above footer bottom */
-  padding: 0 10px;
-  position: relative; /* Ensure the positioning context for the vector image */
+  justify-content: space-between; 
+  align-items: center; 
+  
+  padding: 0 ;
+  position: relative; 
 }
 
 .group-icon {
-  width: 20%; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
-  margin: 0 auto; /* Center horizontally */
+  width: 20%; 
+  height: auto; 
+  margin: 0 auto; 
 }
 
 .vector {
-  width: 500px; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
-  position: absolute; /* Position it absolutely within the footer */
-  right: 0; /* Align to the right edge */
-  bottom: 0; /* Align to the bottom edge */
+  width: 40%;
+
+  height: 50%; 
+ margin-left: auto;
 }
 .buttonapple{
   width: 20%;
@@ -367,7 +371,55 @@
   width: 20%;
   height: 50%;
 }
-
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; 
+  }
+  
+  .header {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .header-button {
+    margin-top: 10px; 
+  }
+  
+  .main-content {
+    flex-direction: column-reverse; 
+    align-items: center; 
+  }
+  
+  .content-left {
+    width: 100%; 
+    padding: 10px; 
+  }
+  
+  
+  .footer-top {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .footer-left, .footer-center, .footer-right {
+    width: 100%; 
+    margin-bottom: 10px; 
+  }
+  
+  .footer-links-container {
+    flex-direction: column; 
+  }
+  .button-container{
+    width: 80%;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .image-container{
+    width: 50%;
+    margin-top: 20px;
+    justify-content: center;
+  }
+}
 </style>
 
 
